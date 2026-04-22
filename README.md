@@ -1,9 +1,4 @@
-# Judul Besar (H1)
-## Judul Sedang (H2)
-### Judul Kecil (H3)
-
-**Teks Tebal (Bold)**
-*Teks Miring (Italic)*
+gambar warna border box berubah
 
 ![Screenshot Dashboard](img/page.png)
 
