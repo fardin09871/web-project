@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  background: #000;
+}
+
+.navbar {
+  transition: 0.3s;
+}
+
+.navbar.scrolled {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.hero {
+  height: 100vh;
+  background: url('assets/glitch.jpg') center/cover no-repeat;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+
+.section {
+  padding: 100px 0;
+  background: #0a0a0a;
+}
+
+h2 {
+  color: #00ff88;
+}
+
+
+.btn-success {
+  background: #00ff88;
+  border: none;
+}
+
+.btn-success:hover {
+  background: #00cc6a;
+}
+
+.portfolio-item {
+  border: 1px solid #00ff88;
+  border-radius: 10px;
+  padding: 15px;
+  background: #000;
+  transition: 0.3s;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-5px);
+  border-color: #00ffcc;
+}
+
+.portfolio-item h5 {
+  color: #00ff88;
+  margin-top: 10px;
+}
+
+.portfolio-item p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.overlay h5 {
+  color: #00ff88;
+  font-weight: bold;
+}
+
+footer {
+  background: #000;
+}
